@@ -40,10 +40,10 @@ public class HW006_Practice {
 //      Amazon sayfasina donun
         driver.navigate().forward();
 
-//      Sayfayi tamsayfa yapin
+        //Sayfayi tamsayfa yapin
         driver.manage().window().maximize();
 
-//      Ardından sayfa başlığının "Amazon" içerip içermediğini (contains) doğrulayın, Yoksa  doğru başlığı(Actual Title) yazdırın.
+        //Ardından sayfa başlığının "Amazon" içerip içermediğini (contains) doğrulayın, Yoksa  doğru başlığı(Actual Title) yazdırın.
         actualTitle = driver.getTitle();
         if (actualTitle.contains("Amazon")){
             System.out.println("Verify.");
@@ -51,7 +51,7 @@ public class HW006_Practice {
             System.out.println(actualTitle);
         }
 
-//      Sayfa URL'sinin https://www.amazon.com/ olup olmadığını doğrulayın, degilse doğru URL'yi yazdırın
+        //Sayfa URL'sinin https://www.amazon.com/ olup olmadığını doğrulayın, degilse doğru URL'yi yazdırın
         actualUrl = driver.getCurrentUrl();
         if(actualUrl.equals("https://www.amazon.com/")){
             System.out.println("Verify.");
