@@ -62,5 +62,10 @@ Ardından sayfa başlığının "Amazon" içerip içermediğini (contains) doğr
 Sayfa URL'sinin https://www.amazon.com/ olup olmadığını doğrulayın, degilse doğru
 URL'yi yazdırın
 Sayfayi kapatin
-
+**********************************************
+ödev : 7
+Amazon sayfasına gidiniz
+iphone aratınız
+çıkan sonuç yazısını konsola yazdırınız
+çıkan ürünlerden ilk 5 tanesine tıklayıp sayfa başlıklarını yazdırınız
 
