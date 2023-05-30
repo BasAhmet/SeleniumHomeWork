@@ -37,7 +37,7 @@ public class HW006_Practice {
 //      Sayfayi yenileyin
         driver.navigate().refresh();
 
-//      Amazon sayfasina donun
+        //Amazon sayfasina donun
         driver.navigate().forward();
 
         //Sayfayi tamsayfa yapin
