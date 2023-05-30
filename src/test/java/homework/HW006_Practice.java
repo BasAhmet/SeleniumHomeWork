@@ -34,7 +34,7 @@ public class HW006_Practice {
 //      Youtube sayfasina geri donun
         driver.navigate().back();
 
-//      Sayfayi yenileyin
+        //Sayfayi yenileyin
         driver.navigate().refresh();
 
         //Amazon sayfasina donun
