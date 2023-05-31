@@ -22,19 +22,16 @@ public class HW007_Practice_Search {
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("iphone", Keys.ENTER);
 
         //çıkan sonuç yazısını konsola yazdırınız
-        List<WebElement> linkList = driver.findElements(By.tagName("h2"));
-        String link;
-        int count = 1;
-        List<String> iphoneLink = new ArrayList<>();
-        for (WebElement w : linkList) {
-            link = w.findElement(By.tagName("a")).getAttribute("href");
-            iphoneLink.add(link);
-            System.out.println(count + ". link : " + link);
-            count++;
-        }
-        System.out.println("Iphone sayısı : " + linkList.size());
+        List<WebElement> resultText = driver.findElements(By.className("sg-col-inner"));
+        System.out.println(resultText.get(0).getText());
 
         //çıkan ürünlerden ilk 5 tanesine tıklayıp sayfa başlıklarını yazdırınız
+        List<WebElement> linkList = driver.findElements(By.tagName("h2"));
+        List<String> iphoneLink = new ArrayList<>();
+        for (WebElement w : linkList) {
+            iphoneLink.add(w.findElement(By.tagName("a")).getAttribute("href"));
+        }
+
         for (int i = 0; i < 5; i++) {
             driver.get(iphoneLink.get(i));
             System.out.println((i+1) + ".Ürünün Sayfa Başlığı : " + driver.getTitle());

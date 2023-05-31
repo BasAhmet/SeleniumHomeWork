@@ -68,4 +68,7 @@ Amazon sayfasına gidiniz
 iphone aratınız
 çıkan sonuç yazısını konsola yazdırınız
 çıkan ürünlerden ilk 5 tanesine tıklayıp sayfa başlıklarını yazdırınız
-
+**********************************************
+ödev : 8
+https://automationexercise.com/test_cases saydafsına gidiniz
+test caseleri alınız
