@@ -70,10 +70,6 @@ iphone aratınız
 çıkan ürünlerden ilk 5 tanesine tıklayıp sayfa başlıklarını yazdırınız
 **********************************************
 ödev : 8
-https://automationexercise.com/test_cases saydafsına gidiniz
-test caseleri alınız
-**********************************************
-ödev : 9
 Techproeducation sayfasına gidelim
 Çıkan reklamı locate edip kapatalım
 Arama bölümünde qa aratalım
@@ -82,4 +78,8 @@ Carrer Opportunities In QA linkinin görünür ve erişilebilir olduğunu doğru
 Carrer Opportunities In QA linkine tıklayalım
 Başlığın Opportunities içerdiğini test edelim
 Tekrar anasayfaya dönelim ve url'in https://techproeducation.com/ olduğunu doğrulayalım
+**********************************************
+ödev : 9
+https://automationexercise.com/test_cases saydafsına gidiniz
+test caseleri alınız
 
