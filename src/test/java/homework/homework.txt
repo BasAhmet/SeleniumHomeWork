@@ -80,6 +80,14 @@ Başlığın Opportunities içerdiğini test edelim
 Tekrar anasayfaya dönelim ve url'in https://techproeducation.com/ olduğunu doğrulayalım
 **********************************************
 ödev : 9
+http://the-internet.herokuapp.com/add_remove_elements/ adresine gidiniz
+Add Element butonuna 100 defa basınız
+100 defa basıldığını test ediniz
+90 defa delete butonuna basınız
+90 defa basıldığını doğrulayınız
+Sayfayı kapatınız
+**********************************************
+ödev : 10
 https://automationexercise.com/test_cases saydafsına gidiniz
 test caseleri alınız
 
