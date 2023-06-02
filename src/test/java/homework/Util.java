@@ -1,16 +1,26 @@
 package homework;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
 public class Util {
+    public static WebDriver setChromeProperty(int time){
+        System.setProperty("chromeDriver", "src/resources/drivers/chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(time));
+        return driver;
+    }
+
+
     public static String setChromeProperty(){
         String chromeDriver = "src/resources/drivers/chromedriver.exe";
         return System.setProperty("chromeDriver", chromeDriver);
     }
-    public static void sleep(int time) throws InterruptedException {
-        Thread.sleep(time*1000);
+    public static void sleep(float time) throws InterruptedException {
+        Thread.sleep((long) (time*1000));
     }
     public static void maximize(WebDriver driver){
         driver.manage().window().maximize();
