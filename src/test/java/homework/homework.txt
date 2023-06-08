@@ -9,6 +9,7 @@ Sayfa url’inin “amazon” icerdigini test edin.
 Sayfa handle degerini yazdirin
 Sayfa HTML kodlarinda “Gateway” kelimesi gectigini test edin
 Sayfayi kapatin.
+
 **********************************************
 ödev : 2
 NavigationMethods
@@ -18,6 +19,7 @@ Tekrar YouTube’sayfasina donelim
 Yeniden Amazon sayfasina gidelim
 Sayfayi Refresh(yenile) yapalim
 Sayfayi kapatalim / Tum sayfalari kapatalim
+
 **********************************************
 ödev : 3
 ManageWindow
@@ -29,6 +31,7 @@ Sayfanin konumunu ve boyutlarini maximize durumunda yazdirin
 Sayfayi fullscreen yapin
 Sayfanin konumunu ve boyutlarini fullscreen durumunda yazdirin
 Sayfayi kapatin
+
 **********************************************
 ödev : 4
 ManageWindowSet
@@ -37,6 +40,7 @@ Sayfanin konumunu ve boyutlarini yazdirin
 Sayfanin konumunu ve boyutunu istediginiz sekilde ayarlayin
 Sayfanin sizin istediginiz konum ve boyuta geldigini test edin
 Sayfayi kapatin
+
 **********************************************
 ödev : 5
 Yeni bir class olusturalim (Homework)
@@ -49,6 +53,7 @@ Sayfa basliginin “Walmart.com” icerdigini dogrulayin.
 Tekrar “facebook” sayfasina donun
 Sayfayi yenileyin
 Sayfayi tam sayfa (maximize) yapin  9.Browser’i kapatin
+
 **********************************************
 ödev : 6
 Youtube web sayfasına gidin ve sayfa başlığının “youtube” olup olmadığını doğrulayın  (verify), eğer değilse doğru başlığı(Actual Title) konsolda yazdirin.
@@ -62,12 +67,14 @@ Ardından sayfa başlığının "Amazon" içerip içermediğini (contains) doğr
 Sayfa URL'sinin https://www.amazon.com/ olup olmadığını doğrulayın, degilse doğru
 URL'yi yazdırın
 Sayfayi kapatin
+
 **********************************************
 ödev : 7
 Amazon sayfasına gidiniz
 iphone aratınız
 çıkan sonuç yazısını konsola yazdırınız
 çıkan ürünlerden ilk 5 tanesine tıklayıp sayfa başlıklarını yazdırınız
+
 **********************************************
 ödev : 8
 Techproeducation sayfasına gidelim
@@ -78,6 +85,7 @@ Carrer Opportunities In QA linkinin görünür ve erişilebilir olduğunu doğru
 Carrer Opportunities In QA linkine tıklayalım
 Başlığın Opportunities içerdiğini test edelim
 Tekrar anasayfaya dönelim ve url'in https://techproeducation.com/ olduğunu doğrulayalım
+
 **********************************************
 ödev : 9
 http://the-internet.herokuapp.com/add_remove_elements/ adresine gidiniz
@@ -86,6 +94,7 @@ Add Element butonuna 100 defa basınız
 90 defa delete butonuna basınız
 90 defa basıldığını doğrulayınız
 Sayfayı kapatınız
+
 **********************************************
 ödev : 10
 "https://www.amazon.com/" adresine gidiniz.
@@ -95,6 +104,7 @@ n11 adresine ilerleyiniz
 sayfayi yenileyiniz
 pencereyi kapat
 Konsola "HER ŞEY YOLUNDA" yazdir
+
 **********************************************
 ödev : 11
 "https://teknosa.com/" adresine gidiniz
@@ -110,8 +120,76 @@ Sayfayı yenileyiniz
 medunna adresine ilerleyiniz
 Sayfayı yenileyiniz
 pencereyi kapat
+
 **********************************************
-ödev
+ödev : 12
+Verilen web sayfasına gidin.
+https://the-internet.herokuapp.com/checkboxes
+Checkbox1 ve checkbox2 elementlerini locate edin.
+Checkbox1 seçili değilse onay kutusunu tıklayın
+Checkbox2 seçili değilse onay kutusunu tıklayın
+
+**********************************************
+ödev : 13
+https://www.facebook.com adresine gidin
+Cookies’i kabul edin
+“Create an Account” button’una basin
+“radio buttons” elementlerini locate edin
+Secili degilse cinsiyet butonundan size uygun olani secin
+
+**********************************************
+ödev : 14
+*** Aşağıdaki Task'i Junit framework'u ile yapınız
+
+- Before methodu ile drive'i olusturup ayarlamalari yapiniz
+- ebay sayfasına gidiniz
+- electronics bölümüne tıklayınız
+- Genişliği 225 ve Uzunluğu 225 olan resimlerin hepsine tıklayalım
+- Her sayfanın sayfa başlığını yazdıralım
+- After methodu ile sayfayı kapatalım
+
+**********************************************
+ödev : 15
+●https://the-internet.herokuapp.com/dropdown adresine gidin.
+1.Index kullanarak Seçenek 1’i (Option 1) seçin ve yazdırın
+2.Value kullanarak Seçenek 2'yi (Option 2) seçin ve yazdırın
+3.Visible Text(Görünen metin) kullanarak Seçenek 1’i (Option 1) seçin ve yazdırın
+4.Tüm dropdown değerleri(value) yazdırın
+5.Dropdown’un boyutunu bulun, Dropdown’da 4 öğe varsa konsolda True , degilse
+False yazdırın.
+
+**********************************************
+ödev : 16
+●https://www.amazon.com/ adresine gidin.
+-Test 1
+Arama kutusunun yanindaki kategori menusundeki kategori sayisinin 45
+oldugunu test edin
+-Test 2
+1.Kategori menusunden Books secenegini secin
+2.Arama kutusuna Java yazin ve aratin
+3.Bulunan sonuc sayisini yazdirin
+4.Sonucun Java kelimesini icerdigini test edin
+
+**********************************************
+ödev : 17
+1.http://zero.webappsecurity.com/ Adresine gidin
+2.Sign in butonuna basin
+3.Login kutusuna “username” yazin
+4.Password kutusuna “password.” yazin
+5.Sign in tusuna basin(not: navigate.Back yapınız)
+6.Pay Bills sayfasina gidin
+7.“Purchase Foreign Currency” tusuna basin
+8.“Currency” drop down menusunden Eurozone’u secin
+9.“amount” kutusuna bir sayi girin
+10.“US Dollars” in secilmedigini test edin
+11.“Selected currency” butonunu secin
+12.“Calculate Costs” butonuna basin sonra “purchase” butonuna basin
+“Foreign currency cash was successfully purchased.” yazisinin ciktigini kontrol edin
+
+**********************************************
+ödev : 18
+
+
 https://automationexercise.com/test_cases saydafsına gidiniz
 test caseleri alınız
 

@@ -26,24 +26,24 @@ public class HW009_Practice {
 
         // 100 defa basıldığını test ediniz
         List<WebElement> deleteButtons1 = driver.findElements(By.xpath("//*[@id='elements']/button"));
-        if(deleteButtons1.size() == addElementClick){
+        if(deleteButtons1.size() == 100){
             System.out.println("Test PASSED");
         }else {
             System.out.println("Test FAILED : " + deleteButtons1.size());
         }
 
         // 90 defa delete butonuna basınız
-        for (int i = 0; i < deleteElementClick; i++) {
+        for (int i = 0; i < 90; i++) {
             driver.findElement(By.xpath("//*[@id='elements']/button")).click();
             Util.sleep(0.5F);
         }
 
         // 90 defa basıldığını doğrulayınız
         List<WebElement> deleteButtons2 = driver.findElements(By.xpath("//*[@id='elements']/button"));
-        if(addElementClick-deleteElementClick == 10){
+        if(deleteButtons2.size() == 10){
             System.out.println("Test PASSED.");
         }else {
-            System.out.println("Test FAILED : " + (addElementClick-deleteElementClick));
+            System.out.println("Test FAILED : " + deleteButtons2.size());
         }
 
         // Sayfayı kapatınız
