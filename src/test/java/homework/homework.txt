@@ -150,7 +150,7 @@ Secili degilse cinsiyet butonundan size uygun olani secin
 
 **********************************************
 ödev : 15
-●https://the-internet.herokuapp.com/dropdown adresine gidin.
+https://the-internet.herokuapp.com/dropdown adresine gidin.
 1.Index kullanarak Seçenek 1’i (Option 1) seçin ve yazdırın
 2.Value kullanarak Seçenek 2'yi (Option 2) seçin ve yazdırın
 3.Visible Text(Görünen metin) kullanarak Seçenek 1’i (Option 1) seçin ve yazdırın
@@ -160,7 +160,7 @@ False yazdırın.
 
 **********************************************
 ödev : 16
-●https://www.amazon.com/ adresine gidin.
+https://www.amazon.com/ adresine gidin.
 -Test 1
 Arama kutusunun yanindaki kategori menusundeki kategori sayisinin 45
 oldugunu test edin
@@ -188,7 +188,25 @@ oldugunu test edin
 
 **********************************************
 ödev : 18
+//BeforeClass methodu ile driver ı olusturun ve Maximize edin, 15 sn bekletin
+//Before methodunda http://www.google.com adresine gidin
+//Üç farklı test methodu ile;
+//arama kutusuna "The God Father" yazip, cikan sonuc sayisini yazdirin
+//arama kutusuna  "Lord of the Rings" yazip, cikan sonuc sayisini yazdirin
+//arama kutusuna  "Kill Bill" yazip, cikan sonuc sayisini yazdirin
+//After method'u ile başlıkları yazdırınız
+//AfterClass ile browser'ı kapatınız
 
+**********************************************
+ödev : 19
+-Amazon sayfasına gidelim
+-Arama Kutusundaki Dropdown menuyu yazdıralım
+-Dropdown menuden sırasıyla ilk 5 başlığı (Arts&Crafts ile başlayıp Books'a kadar Books dahil) seçip
+başlık altındakileri aratalım. Her aramada sayfa başlığını yazdıralım
+Not: Select Class'ı kullanalım
+
+**********************************************
+ödev : 19
 
 https://automationexercise.com/test_cases saydafsına gidiniz
 test caseleri alınız
