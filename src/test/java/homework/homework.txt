@@ -206,7 +206,7 @@ başlık altındakileri aratalım. Her aramada sayfa başlığını yazdıralım
 Not: Select Class'ı kullanalım
 
 **********************************************
-ödev : 19
+ödev : 20
 
 https://automationexercise.com/test_cases saydafsına gidiniz
 test caseleri alınız
