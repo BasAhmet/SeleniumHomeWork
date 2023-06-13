@@ -19,8 +19,12 @@ public class Util {
         String chromeDriver = "src/resources/drivers/chromedriver.exe";
         return System.setProperty("chromeDriver", chromeDriver);
     }
-    public static void sleep(float time) throws InterruptedException {
-        Thread.sleep((long) (time*1000));
+    public static void sleep(float time) {
+        try {
+            Thread.sleep((long) (time*1000));
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
     public static void maximize(WebDriver driver){
         driver.manage().window().maximize();
