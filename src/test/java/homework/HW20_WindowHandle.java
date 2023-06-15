@@ -2,7 +2,6 @@ package homework;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.WindowType;
 import utilities.TestBase;
 
 public class HW20_WindowHandle extends TestBase {
