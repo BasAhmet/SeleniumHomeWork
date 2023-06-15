@@ -1,10 +1,11 @@
-package Utilities;
+package utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
@@ -27,7 +28,7 @@ public abstract class TestBase {
 
     @After
     public void tearDown() throws Exception {
-        driver.close();
+        //driver.quit();
     }
     public void pause(float second){
         try {
@@ -66,6 +67,12 @@ public abstract class TestBase {
     public void selectValue(WebElement ddm, String value){
         Select select = new Select(ddm);
         select.selectByValue(value);
+    }
+    public void newWindowTab(){
+        driver.switchTo().newWindow(WindowType.TAB);
+    }
+    public void newWindowWindow(){
+        driver.switchTo().newWindow(WindowType.WINDOW);
     }
 
 

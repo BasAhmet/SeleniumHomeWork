@@ -207,6 +207,78 @@ Not: Select Class'ı kullanalım
 
 **********************************************
 ödev : 20
+Yeni bir class olusturun: WindowHandle
+Amazon anasayfa adresine gidin.
+Sayfa’nin window handle degerini String bir degiskene atayin
+Sayfa title’nin “Amazon” icerdigini test edin
+Yeni bir tab olusturup, acilan tab’da techproeducation.com adresine gidin
+Sayfa title’nin “TECHPROEDUCATION” icerdigini test edin
+Yeni bir window olusturup, acilan sayfada walmart.com adresine gidin
+Sayfa title’nin “Walmart” icerdigini test edin
+Ilk acilan sayfaya donun ve amazon sayfasina dondugunuzu test edin
+
+**********************************************
+ödev : 21
+-http://demo.automationtesting.in/Alerts.html sayfasına gidiniz
+-Alert with OK karşısındaki click the button to display an alert box: butonuna tıklayınız
+-Çıkan alert üzerindeki yazıyı konsola yazdırınız ve tamam butonuna basınız
+-Alert with OK & Cancel butonuna basınız ve sonrasında click the button to display a confirm box butonuna basınız
+-Çıkan alert'te iptal butonuna basınız
+-Alert with Textbox butonuna basınız ve sonrasında click the button to demonstrate the prompt box butonuna basınız
+-Çıkan prompt box'a 'isminizi' yazdırınız ve Tamam'a basınız
+-Çıkan mesajı konsola yazdırınız
+-Çıkan mesajın 'Hello <isminiz> How are you today' yazdığını doğrulayınız
+
+**********************************************
+ödev : 22
+// https://www.jqueryscript.net/demo/Easy-iFrame-based-Twitter-Emoji-Picker-Plugin-jQuery-Emoojis/ sitesine gidin
+// ikinci emojiye tıklayın
+// İkinci emoji öğelerini yazdırınız
+// Parent iframe e geri donun
+// Formu doldurun,(Formu istediğiniz metinlerle doldurun)
+// Apply button a basiniz
+
+**********************************************
+ödev : 23
+  // ...Exercise1...
+// Create a new class under Q1 create main method
+// Set Path
+// Create chrome driver
+// Maximize the window
+// Open google home page https://www.google.com/.
+// On the same class, Navigate to amazon home page https://www.amazon.com/ Navigate back to google
+// Navigate forward to amazon
+// Refresh the page
+// Close/Quit the browser
+// And last step : print "all ok" on console
+    /*Exercise1... Q1 altında yeni bir sınıf oluştur ana yöntemi oluştur
+    Yolu Ayarla Krom sürücüsü oluştur Pencereyi büyüt Google ana sayfasını aç
+     https:www.google.com. Aynı sınıfta, Amazon ana sayfasına gidin
+     https:www.amazon.com Google'a geri gidin Amazon'a ilerleyin Sayfayı yenileyin
+     Kapat Tarayıcıdan çıkın Ve son adım: konsolda "tamam" yazdırın
+    */
+
+**********************************************
+ödev : 24
+ //  ...Exercise2...
+//  1-driver olusturalim
+//  2-java class'imiza chromedriver.exe'yi tanitalim
+//  3-driver'in tum ekrani kaplamasini saglayalim
+//  4-driver'a sayfanın yuklenmesini 10.000 milisaniye (10 saniye) boyunca beklesini
+//    söyleyelim. Eger oncesinde sayfa yuklenirse, beklemeyi bıraksin.
+//  5-"sahibinden.com" adresine gidelim
+//  6-bu web adresinin sayfa basligini(title) ve adres(url)ini alalim
+//  7-title ve url'nin "Oto" kelimesinin icerip icermedigini kontrol edelim
+//  8-Ardindan "gittigidiyor.com" adresine gidelim
+//  9-bu adresin basligini alalim ve "Sitesi" kelismesini icerip icermedigini
+//    kontrol edelim
+//  10-Bi onceki web sayfamiza geri donelim
+//  11-sayfayi yenileyelim
+//  12-Daha sonra web sayfamiza tekrar donelim ve oldugumuz sayfayi kapatalim
+//  13-En son adim olarak butun sayfalarimizi kapatmis olalim
+
+**********************************************
+ödev : 25
 
 https://automationexercise.com/test_cases saydafsına gidiniz
 test caseleri alınız
