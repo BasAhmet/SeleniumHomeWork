@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import utilities.TestBase;
 
-public class HW20_WindowHandle extends TestBase {
+public class HW020_WindowHandle extends TestBase {
     @Test
     public void test01() {
         //Yeni bir class olusturun: WindowHandle

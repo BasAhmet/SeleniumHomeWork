@@ -2,13 +2,12 @@ package homework;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import utilities.TestBase;
 
 import java.util.List;
 
-public class HW22_Iframe extends TestBase {
+public class HW022_Iframe extends TestBase {
     @Test
     public void test01() {
         // https://www.jqueryscript.net/demo/Easy-iFrame-based-Twitter-Emoji-Picker-Plugin-jQuery-Emoojis/ sitesine gidin

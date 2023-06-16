@@ -5,7 +5,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import utilities.TestBase;
 
-public class HW21_Alert extends TestBase {
+public class HW021_Alert extends TestBase {
     @Test
     public void test01() {
         //-http://demo.automationtesting.in/Alerts.html sayfasına gidiniz

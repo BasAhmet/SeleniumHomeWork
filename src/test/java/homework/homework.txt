@@ -240,42 +240,25 @@ Ilk acilan sayfaya donun ve amazon sayfasina dondugunuzu test edin
 
 **********************************************
 ödev : 23
-  // ...Exercise1...
-// Create a new class under Q1 create main method
-// Set Path
-// Create chrome driver
-// Maximize the window
-// Open google home page https://www.google.com/.
-// On the same class, Navigate to amazon home page https://www.amazon.com/ Navigate back to google
-// Navigate forward to amazon
-// Refresh the page
-// Close/Quit the browser
-// And last step : print "all ok" on console
-    /*Exercise1... Q1 altında yeni bir sınıf oluştur ana yöntemi oluştur
-    Yolu Ayarla Krom sürücüsü oluştur Pencereyi büyüt Google ana sayfasını aç
-     https:www.google.com. Aynı sınıfta, Amazon ana sayfasına gidin
-     https:www.amazon.com Google'a geri gidin Amazon'a ilerleyin Sayfayı yenileyin
-     Kapat Tarayıcıdan çıkın Ve son adım: konsolda "tamam" yazdırın
-    */
+//    Google ana sayfasını aç https://www.google.com
+//    Aynı sayfada, Amazon ana sayfasına gidin https://www.amazon.com
+//    Google'a geri gidin
+//    Amazon'a ilerleyin
+//    Sayfayı yenileyin
+//    Kapat Tarayıcıdan çıkın
+//    Konsolda "tamam" yazdırın
 
 **********************************************
 ödev : 24
- //  ...Exercise2...
-//  1-driver olusturalim
-//  2-java class'imiza chromedriver.exe'yi tanitalim
-//  3-driver'in tum ekrani kaplamasini saglayalim
-//  4-driver'a sayfanın yuklenmesini 10.000 milisaniye (10 saniye) boyunca beklesini
-//    söyleyelim. Eger oncesinde sayfa yuklenirse, beklemeyi bıraksin.
-//  5-"sahibinden.com" adresine gidelim
-//  6-bu web adresinin sayfa basligini(title) ve adres(url)ini alalim
-//  7-title ve url'nin "Oto" kelimesinin icerip icermedigini kontrol edelim
-//  8-Ardindan "gittigidiyor.com" adresine gidelim
-//  9-bu adresin basligini alalim ve "Sitesi" kelismesini icerip icermedigini
-//    kontrol edelim
-//  10-Bi onceki web sayfamiza geri donelim
-//  11-sayfayi yenileyelim
-//  12-Daha sonra web sayfamiza tekrar donelim ve oldugumuz sayfayi kapatalim
-//  13-En son adim olarak butun sayfalarimizi kapatmis olalim
+//  1-"sahibinden.com" adresine gidelim
+//  2-bu web adresinin sayfa basligini(title) ve adres(url)ini alalim
+//  3-title ve url'nin "Oto" kelimesinin icerip icermedigini kontrol edelim
+//  4-Ardindan "gittigidiyor.com" adresine gidelim
+//  5-bu adresin basligini alalim ve "Sitesi" kelismesini icerip icermedigini kontrol edelim
+//  6-Bi onceki web sayfamiza geri donelim
+//  7-sayfayi yenileyelim
+//  8-Daha sonra web sayfamiza tekrar donelim ve oldugumuz sayfayi kapatalim
+//  9-En son adim olarak butun sayfalarimizi kapatmis olalim
 
 **********************************************
 ödev : 25
