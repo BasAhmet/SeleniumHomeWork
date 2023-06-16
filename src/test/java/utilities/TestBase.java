@@ -3,6 +3,7 @@ package utilities;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Before;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WindowType;
@@ -73,6 +74,9 @@ public abstract class TestBase {
     }
     public void newWindowWindow(){
         driver.switchTo().newWindow(WindowType.WINDOW);
+    }
+    public WebElement xpath(String xpath){
+        return driver.findElement(By.xpath(xpath));
     }
 
 
