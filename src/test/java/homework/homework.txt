@@ -253,8 +253,8 @@ Ilk acilan sayfaya donun ve amazon sayfasina dondugunuzu test edin
 //  1-"sahibinden.com" adresine gidelim
 //  2-bu web adresinin sayfa basligini(title) ve adres(url)ini alalim
 //  3-title ve url'nin "Oto" kelimesinin icerip icermedigini kontrol edelim
-//  4-Ardindan "gittigidiyor.com" adresine gidelim
-//  5-bu adresin basligini alalim ve "Sitesi" kelismesini icerip icermedigini kontrol edelim
+//  4-Ardindan "n11.com" adresine gidelim
+//  5-bu adresin basligini alalim ve "Hayat" kelismesini icerip icermedigini kontrol edelim
 //  6-Bi onceki web sayfamiza geri donelim
 //  7-sayfayi yenileyelim
 //  8-Daha sonra web sayfamiza tekrar donelim ve oldugumuz sayfayi kapatalim
