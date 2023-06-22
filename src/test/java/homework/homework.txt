@@ -273,6 +273,19 @@ Ilk acilan sayfaya donun ve amazon sayfasina dondugunuzu test edin
 
 **********************************************
 ödev : 26
+- http://szimek.github.io/signature_pad/ sayfasına gidiniz
+- Çıkan ekrana istediğiniz çizgi yada şekli çiziniz
+- Çizimden sonra clear butonuna basınız
+- Sayfayi kapatiniz
+
+**********************************************
+ödev : 27
+https://lms.techproeducation.com/ adresine gidiniz
+siteye login olun
+outomation engineer linkine tıklayınız
+go to zoom tıklayınız
+
+
 
 
 
