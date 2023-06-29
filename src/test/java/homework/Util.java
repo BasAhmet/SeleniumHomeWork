@@ -6,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 
 public class Util {
+    static String userName = "ahba8184gmailcom";
+    static String password = "SRAnIvPmC-27";
     public static WebDriver setChromeProperty(int time){
         System.setProperty("chromeDriver", "src/resources/drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
