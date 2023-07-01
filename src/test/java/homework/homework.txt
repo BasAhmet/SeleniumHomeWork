@@ -301,6 +301,13 @@ go to zoom tıklayınız
 //-Kutucuk içindeki rengi önce kırmızı sonra sarı yapınız
 //-Sarı olduğunu test edelim
 
+**********************************************
+ödev : 30
+//https://bonigarcia.dev/selenium-webdriver-java/slow-calculator.html adresine gidelim
+//Hesap makinasından 2 basamaklı random iki tane sayı seçelim ve random 4 işlemden birini yaptıralım
+//Sonucu konsola yazdırıp
+//Sonucun doğrulamasını yapalım
+
 
 
 https://automationexercise.com/test_cases saydafsına gidiniz
