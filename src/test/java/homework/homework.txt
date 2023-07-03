@@ -308,6 +308,64 @@ go to zoom tıklayınız
 //Sonucu konsola yazdırıp
 //Sonucun doğrulamasını yapalım
 
+**********************************************
+ödev : 31
+1.satirdaki 2.hucreye gidelim ve yazdiralim
+1.satirdaki 2.hucreyi bir string degiskene atayalim ve  yazdiralim
+2.satir 4.cell'in afganistan'in baskenti oldugunu test  edelim
+Satir sayisini bulalim
+Fiziki olarak kullanilan satir sayisini bulun
+Ingilizce Ulke isimleri ve baskentleri bir map olarak  kaydedelim
+
+**********************************************
+ödev : 32
+Yeni bir test method olusturalim writeExcelTest()
+Adimlari takip ederek 1.satira kadar gidelim
+5.hucreye yeni bir cell olusturalim
+Olusturdugumuz hucreye "Nufus" yazdiralim
+2.satir nufus kolonuna 1500000 yazdiralim
+10.satir nufus kolonuna 250000 yazdiralim
+15.satir nufus kolonuna 54000 yazdiralim
+Dosyayi kaydedelim
+Dosyayi kapatalim
+
+**********************************************
+ödev : 33
+1)scrollIntoViewTest metotu olustur
+2)Techpro education ana sayfasina git
+3)We Offer elementi gorunur olacak sekilde uzerine scroll et ve ekran
+gorunturunu al
+4)Ayni sayfada Enroll Free elementi gorunur olacak sekilde scroll et ve
+ekran goruntusunu al
+5)Ayni sayfada WHY US? elementi gorunur olacak sekilde scroll et ve
+ekran goruntusunu al
+6)Ayni sayfada tekrar Enroll Free elementi gorunur olacak sekilde scroll
+et ve ekran goruntusunu al
+
+**********************************************
+ödev : 34
+1)clickByJSTest
+2)Techpro education ana sayfasina git
+3)LMS LOGIN elementine tikla
+4)Cikan sayfayinin URL inin “https://lms.techproeducation.com/” oldugunu test et
+
+**********************************************
+ödev : 35
+1)typeTest metotu olustur
+2)Techpro education ana sayfasina git
+3)Arama kutusuna QA yaz
+
+**********************************************
+ödev : 36
+1)getValueTest metotu olustur
+2)https://www.priceline.com/ a git
+3)Tarih kısmındaki Yazili metinleri al ve yazdır
+
+**********************************************
+ödev : 37
+1)getValueTest metotu olustur
+2)https://www.priceline.com/ a git
+3)Submit butonunu rengini Kirmizi yaz
 
 
 https://automationexercise.com/test_cases saydafsına gidiniz
