@@ -15,6 +15,7 @@ public class HW029_BoxColorChange extends TestBase {
         //-Kutucuk içindeki rengi önce kırmızı sonra sarı yapınız
         Actions actions = new Actions(driver);
         driver.switchTo().frame(0);
+        pause(2);
 
         //Kutucuk Kırmızı Oldu
         xpath("//*[@id='green']/span").sendKeys(Keys.PAGE_DOWN,Keys.PAGE_DOWN,Keys.PAGE_DOWN,

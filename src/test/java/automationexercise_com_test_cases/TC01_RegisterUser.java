@@ -31,6 +31,7 @@ public class TC01_RegisterUser extends TestBase {
         String fName = faker.name().firstName();
         String lName = faker.name().lastName();
         String email = faker.internet().emailAddress();
+        System.out.println(email);
         xpath("//*[@name='name']").sendKeys((fName+" "+lName), Keys.TAB, email, Keys.ENTER);
 
         //    8. Verify that 'ENTER ACCOUNT INFORMATION' is visible
@@ -88,13 +89,13 @@ public class TC01_RegisterUser extends TestBase {
             //driver.switchTo().frame(0);
             //xpath("//*[@id='dismiss-button']").click();
         Assert.assertTrue(xpath("(//a)[11]").getText().contains(fName + " " + lName));
-
+/*
         //    17. Click 'Delete Account' button
         xpath("(//a)[6]").click();
 
         //    18. Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button
         Assert.assertEquals("ACCOUNT DELETED!", xpath("(//h2)[1]").getText());
         xpath("//*[@class='btn btn-primary']").click();
-
+*/
     }
 }

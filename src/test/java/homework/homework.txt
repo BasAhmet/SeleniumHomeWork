@@ -367,6 +367,14 @@ et ve ekran goruntusunu al
 2)https://www.priceline.com/ a git
 3)Submit butonunu rengini Kirmizi yaz
 
+**********************************************
+ödev : 38
+telefon
+çizgi roman
+kalem
+dizüstü bilgisayar
+
+
 
 https://automationexercise.com/test_cases saydafsına gidiniz
 test caseleri alınız
